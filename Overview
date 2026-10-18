@@ -1,0 +1,35 @@
+Arduino-Powered Blind Walking Stick
+
+Overview:
+I built an Arduino-powered walking stick to help visually impaired people detect obstacles while walking. It uses an ultrasonic sensor to measure the distance to objects and a buzzer to alert the user when an obstacle is nearby. I assembled and tested the physical prototype to see how well it worked.
+
+Components:
+-Arduino
+-Ultrasonic sensor
+-Buzzer
+-Jumper wires
+-Power bank
+-PVC pipe
+
+How It Works:
+The ultrasonic sensor detects objects by measuring the distance from the stick.
+The Arduino processes the sensor readings.
+When an object is within the programmed distance, the buzzer sounds to alert the user.
+
+Programming:
+I used Arduino IDE usinb c++ to read distance measurements and control the buzzer.
+
+Testing:
+I built and tested the physical prototype to check its ability to detect obstacles and trigger the buzzer. Further testing could help identify its detection limits and improve its reliability.
+
+Future Improvements:
+1. Improve obstacle detection accuracy.
+2. Make the device smaller and easier to carry.
+3. Improve battery life and alert functionality.
+4. Add a 3d printed housing to make the final device look more appealing.
+
+Timeline:
+I assembled the hardware, programmed the Arduino, and tested the completed prototype.
+
+Resoursce:
+Arduino, c++, Ultrasonic sensor, Electronics, and a Power supply
